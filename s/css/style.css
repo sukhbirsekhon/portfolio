@@ -1246,8 +1246,10 @@ button:focus {
 .mb-20 {
   margin-bottom: 20px; }
 
-.mb-30 {
-  margin-bottom: 30px; }
+.mb-300 {
+  margin-bottom: 30px;
+  margin-left: 300px;
+  }
 
 .sample-text-area {
   padding: 100px 0px; }
@@ -1717,7 +1719,10 @@ h6 {
 .progress-table {
   background: #fff;
   padding: 15px 0px 30px 0px;
-  min-width: 800px; }
+  margin-left: 300px;
+  min-width: 10px;
+  max-width: 600px;
+  }
 
 .progress-table .serial {
   width: 11.83%;
@@ -1730,7 +1735,7 @@ h6 {
   width: 19.74%; }
 
 .progress-table .percentage {
-  width: 40.36%;
+  width: 60%;
   padding-right: 50px; }
 
 .progress-table .table-head {
@@ -2944,6 +2949,9 @@ h6 {
     transition: all 400ms linear;
     cursor: pointer; }
 
+    .float {
+      float: right;
+    }
   .navbar .container {
     padding-left: 15px;
     padding-right: 15px; }
